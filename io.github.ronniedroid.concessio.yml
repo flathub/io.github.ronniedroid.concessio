@@ -24,5 +24,5 @@ modules:
     sources:
     - type: git
       url: https://github.com/ronniedroid/concessio.git
-      tag: v0.1.2
-      commit: 35e99f5aa58cfa7a40ff90c39bfa59282f028160
+      tag: v0.1.5
+      commit: 3e11c4467211cb02baf56243ffccd5c053f7dae7
