@@ -1,6 +1,6 @@
 app-id: io.github.ronniedroid.concessio
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '47'
 sdk: org.gnome.Sdk
 command: io.github.ronniedroid.concessio
 
@@ -24,5 +24,5 @@ modules:
     sources:
     - type: git
       url: https://github.com/ronniedroid/concessio.git
-      tag: v0.1.8
-      commit: cd024fca8e952a8f4c1777d4d1ad204ccaafb594
+      tag: v0.1.9
+      commit: 1c3fe5ed985be1e2ca37fb14b55cbc5f3e043032
