@@ -1,6 +1,6 @@
 app-id: io.github.ronniedroid.concessio
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: io.github.ronniedroid.concessio
 
@@ -9,14 +9,6 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --device=dri
-
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/doc
-  - /share/man
-  - '*.a'
-  - '*.la'
 
 modules:
   - name: concessio
